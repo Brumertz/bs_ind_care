@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3B176B" />
+
+  <!-- SEO Meta Oficial BS IND CARE® -->
+  <title>BS IND CARE® — Mantequilla Corporal Aroma Vainilla | La Excelencia Hecha Cuidado</title>
+  <meta name="description"
+    content="BS IND CARE® Mantequilla Corporal Aroma Vainilla (175 ml / 5.91 fl. oz.). Enriquecida con mantecas de cacao y karité, vitamina E y aceites esenciales. La excelencia hecha cuidado. Hecho en Colombia." />
+  <meta name="keywords"
+    content="BS IND CARE, mantequilla corporal, vainilla, cuidado personal, manteca de karite, manteca de cacao, vitamina E, splash corporal, Colombia, Bridges Siblings Industries" />
+  <meta name="author" content="Bridges Siblings Industries S.A.S." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BS IND CARE® — Mantequilla Corporal Aroma Vainilla" />
+  <meta property="og:description"
+    content="LA EXCELENCIA HECHA CUIDADO. Cuidado corporal premium, hidratación intensa 24h y fórmula natural. Una marca de Bridges Siblings Industries S.A.S." />
+  <meta property="og:type" content="product" />
+  <meta property="og:image" content="assets/images/product1.jpg" />
+
+  <!-- Tailwind CSS CDN con Paleta Maestra del Manual de Identidad -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            purple: {
+              deep: '#170A2E', // Púrpura profundo oficial: Fondos de lujo
+              bs: '#3B176B', // Púrpura BS oficial: Logo, titulares y fondos
+              main: '#3B176B',
+              mid: '#5E2A84',
+              light: '#8E59B8',
+              pale: '#DCCEF0', // Lila suave oficial: Fondos suaves / aromas
+              bg: '#F8F3EA', // Marfil oficial: Fondos claros
+            },
+            gold: {
+              rich: '#DFB75A',
+              main: '#C9A24A', // Dorado premium oficial: Marcos, separadores y acentos
+              light: '#E8CA7A',
+              pale: '#FDF9EE',
+            },
+            ivory: {
+              DEFAULT: '#F8F3EA', // Marfil oficial
+              light: '#FCFAF5',
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['Montserrat', 'Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Brand Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload LCP Asset -->
+  <link rel="preload" as="image" href="assets/images/product1.jpg" fetchpriority="high" />
+</head>
+
+<body class="bg-[#F8F3EA] text-[#170A2E]">
+
+  <!-- ════════════════════════════════════════════════════════════
+       1. NAVBAR (HEADER)
+       ════════════════════════════════════════════════════════════ -->
+  <header>
+    <nav id="navbar" class="py-4 px-4 md:px-8" role="navigation" aria-label="Menú principal">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+        <!-- Logo Oficial BS IND CARE® -->
+        <a href="#hero" class="nav-logo-wrap" aria-label="BS IND CARE inicio">
+          <img src="assets/images/logo.jpg" alt="BS IND CARE Logo" class="nav-logo-img" width="40" height="40" />
+          <div class="leading-tight">
+            <span class="block text-lg font-bold tracking-wider text-white font-serif">BS IND CARE<sup
+                class="text-xs text-gold-rich font-sans">®</sup></span>
+            <span
+              class="block text-[0.58rem] tracking-[0.25em] text-gold-light uppercase opacity-90 font-sans font-semibold">La
+              Excelencia Hecha Cuidado</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <ul class="hidden lg:flex items-center gap-7" role="list">
+          <li><a href="#benefits" class="nav-link">Beneficios</a></li>
+          <li><a href="#video-experience" class="nav-link">Experiencia</a></li>
+          <li><a href="#product-info" class="nav-link">Ingredientes & Uso</a></li>
+          <li><a href="#portfolio" class="nav-link">Colección</a></li>
+          <li><a href="#gallery" class="nav-link">Galería</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <!-- Hamburger (Mobile) -->
+        <button id="hamburger" class="lg:hidden" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="mobile-menu">
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobile-menu" role="dialog" aria-modal="false" aria-label="Menú de navegación móvil">
+      <a href="#benefits" class="mobile-nav-link">✦ Beneficios</a>
+      <a href="#video-experience" class="mobile-nav-link">✦ Experiencia Sensorial</a>
+      <a href="#product-info" class="mobile-nav-link">✦ Ingredientes & Modo de Uso</a>
+      <a href="#portfolio" class="mobile-nav-link">✦ Colección & Presentaciones</a>
+      <a href="#gallery" class="mobile-nav-link">✦ Galería Interactiva</a>
+      <a href="#contact" class="mobile-nav-link">✦ Contacto</a>
+      <div class="px-6 py-4">
+        <a href="https://wa.me/573165305071?text=Hola!%20Me%20interesa%20la%20Mantequilla%20Corporal%20Vainilla%20de%20BS%20IND%20CARE"
+          target="_blank" rel="noopener noreferrer" class="quick-btn quick-btn-whatsapp w-full justify-center"
+          aria-label="Contactar por WhatsApp">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Comprar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════════════════════
+       2. HERO SECTION
+       ════════════════════════════════════════════════════════════ -->
+  <section id="hero" aria-labelledby="hero-title">
+    <div class="max-w-7xl mx-auto w-full px-4 md:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center w-full">
+
+        <!-- Hero Text Content (7 cols) -->
+        <div class="lg:col-span-7 flex flex-col gap-5 md:gap-6 text-center lg:text-left">
+
+          <!-- Badges de Certificación -->
+          <div class="flex flex-wrap justify-center lg:justify-start gap-2">
+            <span class="hero-badge">
+              <span>✦</span>
+              <span>Hecho en Colombia</span>
+            </span>
+            <span class="hero-badge">
+              <span>★</span>
+              <span>Fórmula Premium</span>
+            </span>
+            <span class="hero-badge">
+              <span>🐰</span>
+              <span>Cruelty Free</span>
+            </span>
+          </div>
+
+          <!-- Título Principal -->
+          <h1 id="hero-title" class="hero-title">
+            Mantequilla Corporal
+            <br />
+            <span class="text-gold-gradient italic font-serif">Aroma Vainilla</span>
+          </h1>
+
+          <!-- Slogan Oficial del Manual de Identidad de Marca -->
+          <div class="hero-slogan-box">
+            <p class="hero-slogan">LA EXCELENCIA HECHA CUIDADO</p>
+            <p class="hero-slogan-sub">El lujo y la nutrición profunda que tu piel merece en cada caricia.</p>
+          </div>
+
+          <!-- Beneficios Inmediatos -->
+          <div class="hero-pills justify-center lg:justify-start">
+            <span class="hero-pill">✦ Nutre</span>
+            <span class="hero-pill">✦ Hidrata</span>
+            <span class="hero-pill">✦ Protege</span>
+            <span class="hero-pill">✦ Embellece</span>
+          </div>
+
+          <!-- Presentación / Contenido Neto Maestro -->
+          <div class="flex items-center justify-center lg:justify-start gap-4">
+            <div
+              class="inline-flex items-center gap-3 bg-white/10 border border-[#C9A24A]/30 rounded-2xl px-5 py-3 backdrop-blur-md">
+              <span class="text-3xl font-bold text-white font-serif">175 ml</span>
+              <div class="h-8 w-px bg-white/20"></div>
+              <div class="text-left">
+                <p class="text-[0.68rem] text-white/70 font-semibold uppercase tracking-wider">Contenido Neto</p>
+                <p class="text-xs text-gold-rich font-bold">5.91 fl. oz.</p>
+              </div>
+            </div>
+            <div class="hidden sm:inline-flex items-center gap-2 text-white/80 text-xs font-medium">
+              <span class="text-gold-rich text-lg">✦</span>
+              <span>Textura batida ultrasuave</span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-3.5 justify-center lg:justify-start pt-2">
+            <a href="https://wa.me/573165305071?text=Hola!%20Me%20interesa%20la%20Mantequilla%20Corporal%20Vainilla%20de%20BS%20IND%20CARE"
+              target="_blank" rel="noopener noreferrer" class="hero-cta-primary"
+              aria-label="Comprar ahora por WhatsApp">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              Comprar Ahora por WhatsApp
+            </a>
+            <a href="#video-experience" class="hero-cta-secondary" aria-label="Ver video y experiencia">
+              <svg class="w-4 h-4 text-gold-rich" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              Ver Experiencia
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Product Image (5 cols) -->
+        <div class="lg:col-span-5 hero-product-card flex justify-center">
+          <div class="relative max-w-sm lg:max-w-md w-full">
+            <div class="hero-product-glow"></div>
+            <img src="assets/images/product1.jpg"
+              alt="BS IND CARE® Mantequilla Corporal Vainilla — Frasco abierto de lujo con textura batida"
+              class="hero-product-img w-full object-cover" width="440" height="440" fetchpriority="high" />
+
+            <!-- Floating badges decorativos -->
+            <div class="product-float-badge top-right hidden sm:flex items-center gap-2" aria-hidden="true">
+              <span class="text-xl">🌟</span>
+              <div>
+                <p class="text-[0.65rem] font-bold text-gold-light tracking-widest uppercase">Fórmula Activa</p>
+                <p class="text-xs font-bold text-white">Karité & Cacao</p>
+              </div>
+            </div>
+
+            <div class="product-float-badge bottom-left hidden sm:flex items-center gap-2" aria-hidden="true">
+              <span class="text-xl">🇨🇴</span>
+              <div>
+                <p class="text-[0.65rem] text-white/70 tracking-wide uppercase font-semibold">Calidad Premium</p>
+                <p class="text-xs font-bold text-gold-light">Hecho en Colombia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       3. SECCIÓN DE BENEFICIOS CLAVE
+       ════════════════════════════════════════════════════════════ -->
+  <section id="benefits" class="py-20 md:py-28 px-4 md:px-8" aria-labelledby="benefits-title">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-16 reveal">
+        <p class="section-label mb-3">La Excelencia Hecha Cuidado</p>
+        <h2 id="benefits-title" class="section-title mb-4">Beneficios que Transforman tu Piel</h2>
+        <div class="section-divider mx-auto mb-5"></div>
+        <p class="text-base text-[#3B176B] max-w-2xl mx-auto leading-relaxed">
+          Diseñada bajo estrictos estándares de estética cosmética internacional para brindar una experiencia sensorial
+          elegante, delicada y altamente nutritiva.
+        </p>
+      </div>
+
+      <!-- Grid 4 Columnas Adaptable -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <article class="benefit-card reveal reveal-delay-1" aria-label="Beneficio: Fórmula Premium">
+          <div class="benefit-icon" aria-hidden="true">🌟</div>
+          <h3 class="benefit-title">Fórmula Premium</h3>
+          <p class="benefit-desc">
+            Elaborada con manteca de cacao pura, manteca de karité y vitamina E. Alta concentración de activos
+            nutritivos para un cuidado óptimo y seguro.
+          </p>
+          <div class="mt-4 flex items-center gap-1.5 pt-3 border-t border-purple-pale/50">
+            <span class="w-2 h-2 rounded-full bg-[#C9A24A]"></span>
+            <span class="text-xs font-bold text-[#C9A24A]">Calidad Certificada</span>
+          </div>
+        </article>
+
+        <article class="benefit-card reveal reveal-delay-2" aria-label="Beneficio: Hidrata y Restaura">
+          <div class="benefit-icon" aria-hidden="true">💧</div>
+          <h3 class="benefit-title">Hidrata y Restaura</h3>
+          <p class="benefit-desc">
+            Restaura la barrera lipídica natural de la piel y previene la resequedad. Brinda hidratación continua y
+            profunda hasta por 24 horas continuas.
+          </p>
+          <div class="mt-4 flex items-center gap-1.5 pt-3 border-t border-purple-pale/50">
+            <span class="w-2 h-2 rounded-full bg-[#C9A24A]"></span>
+            <span class="text-xs font-bold text-[#C9A24A]">Hidratación 24 Horas</span>
+          </div>
+        </article>
+
+        <article class="benefit-card reveal reveal-delay-3" aria-label="Beneficio: Nutrición Intensa">
+          <div class="benefit-icon" aria-hidden="true">🌿</div>
+          <h3 class="benefit-title">Nutrición Intensa</h3>
+          <p class="benefit-desc">
+            Aporta vitaminas A, E y ácidos grasos esenciales que regeneran la elasticidad cutánea, protegiendo contra
+            los factores ambientales externos.
+          </p>
+          <div class="mt-4 flex items-center gap-1.5 pt-3 border-t border-purple-pale/50">
+            <span class="w-2 h-2 rounded-full bg-[#C9A24A]"></span>
+            <span class="text-xs font-bold text-[#C9A24A]">Vitaminas A & E</span>
+          </div>
+        </article>
+
+        <article class="benefit-card reveal reveal-delay-4" aria-label="Beneficio: Piel Suave y Radiante">
+          <div class="benefit-icon" aria-hidden="true">✨</div>
+          <h3 class="benefit-title">Piel Suave y Radiante</h3>
+          <p class="benefit-desc">
+            Textura cremosa de rápida absorción sin sensación grasa. Deja tu piel visiblemente sedosa, luminosa y con el
+            embriagador aroma dulce de la vainilla.
+          </p>
+          <div class="mt-4 flex items-center gap-1.5 pt-3 border-t border-purple-pale/50">
+            <span class="w-2 h-2 rounded-full bg-[#C9A24A]"></span>
+            <span class="text-xs font-bold text-[#C9A24A]">Aroma Vainilla Gourmet</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- Barra de Garantías & Métricas de Marca -->
+      <div class="mt-14 bg-[#170A2E] border border-[#C9A24A]/30 rounded-2xl p-6 md:p-8 shadow-xl reveal">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div>
+            <p class="text-3xl font-serif font-bold text-gold-rich">100%</p>
+            <p class="text-xs text-white/70 font-semibold tracking-wider uppercase mt-1">Ingredientes Nutritivos</p>
+          </div>
+          <div>
+            <p class="text-3xl font-serif font-bold text-gold-rich">24h</p>
+            <p class="text-xs text-white/70 font-semibold tracking-wider uppercase mt-1">Hidratación Continua</p>
+          </div>
+          <div>
+            <p class="text-3xl font-serif font-bold text-gold-rich">0%</p>
+            <p class="text-xs text-white/70 font-semibold tracking-wider uppercase mt-1">Parabenos & Crueldad</p>
+          </div>
+          <div>
+            <p class="text-3xl font-serif font-bold text-gold-rich">175 ml</p>
+            <p class="text-xs text-white/70 font-semibold tracking-wider uppercase mt-1">Contenido Neto Maestro</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       4. SECCIÓN DE VIDEO & EXPERIENCIA SENSORIAL (NUEVO)
+       ════════════════════════════════════════════════════════════ -->
+  <section id="video-experience" class="py-20 md:py-28 px-4 md:px-8 text-white" aria-labelledby="video-title">
+    <div class="max-w-6xl mx-auto">
+
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+
+        <!-- Columna de Texto -->
+        <div class="lg:col-span-5 space-y-6 reveal">
+          <p class="section-label text-gold-light">Experiencia Sensorial</p>
+          <h2 id="video-title" class="font-serif text-3xl md:text-4xl font-bold leading-tight">
+            Descubre la Textura y el Cuidado en Acción
+          </h2>
+          <div class="section-divider"></div>
+          <p class="text-white/80 text-sm md:text-base leading-relaxed">
+            Una textura batida rica y sedosa que se funde suavemente al contacto con la temperatura de tu piel,
+            liberando notas envolventes de vainilla cálida.
+          </p>
+
+          <div class="space-y-3 pt-2">
+            <div class="flex items-center gap-3">
+              <span
+                class="w-6 h-6 rounded-full bg-gold-main/20 text-gold-rich flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="text-sm font-medium text-white/90">Fácil absorción sin sensación pegajosa</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span
+                class="w-6 h-6 rounded-full bg-gold-main/20 text-gold-rich flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="text-sm font-medium text-white/90">Fragancia de fijación prolongada</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span
+                class="w-6 h-6 rounded-full bg-gold-main/20 text-gold-rich flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="text-sm font-medium text-white/90">Ideal para masajes y rituales de autocuidado</span>
+            </div>
+          </div>
+
+          <div class="pt-4">
+            <a href="#contact"
+              class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-gold-main/40 text-gold-light font-bold text-xs tracking-widest uppercase px-6 py-3 rounded-full transition-all duration-300">
+              <span>✦</span>
+              <span>Solicitar Información / Pedidos</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Reproductor de Video Oficial -->
+        <div class="lg:col-span-7 reveal">
+          <div class="video-frame-container">
+            <video id="productVideo" src="assets/images/productvideo1.mp4" controls playsinline preload="metadata"
+              poster="assets/images/lifestyle.jpg" aria-label="Video demostrativo de Mantequilla Corporal BS IND CARE">
+              Tu navegador no soporta la reproducción de video HTML5.
+            </video>
+          </div>
+          <p class="text-center text-white/50 text-xs mt-3 italic">
+            Video oficial de demostración — BS IND CARE®
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       5. SECCIÓN DE INFORMACIÓN DEL PRODUCTO & INGREDIENTES
+       ════════════════════════════════════════════════════════════ -->
+  <section id="product-info" class="py-20 md:py-28 px-4 md:px-8 bg-white" aria-labelledby="product-info-title">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-16 reveal">
+        <p class="section-label mb-3">Fórmula & Aplicación</p>
+        <h2 id="product-info-title" class="section-title mb-4">Ingredientes y Modo de Uso</h2>
+        <div class="section-divider mx-auto mb-4"></div>
+        <p class="text-[#3B176B] text-sm max-w-xl mx-auto">
+          Conoce en detalle la composición natural y el ritual recomendado para obtener los máximos resultados en tu
+          piel.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+
+        <!-- Columna Izquierda: Modo de Uso + Texto Comercial Maestro (7 cols) -->
+        <div class="lg:col-span-7 space-y-8">
+
+          <!-- Texto Maestro Comercial de Ingredientes (Manual de Marca) -->
+          <div class="bg-[#F8F3EA] border-l-4 border-[#C9A24A] p-6 rounded-r-2xl shadow-sm reveal">
+            <p class="text-xs font-bold text-[#C9A24A] uppercase tracking-wider mb-2">✦ Declaración Maestra de Fórmula
+            </p>
+            <blockquote class="text-[#170A2E] text-sm md:text-base font-serif italic leading-relaxed">
+              "Enriquecida con mantecas de cacao y karité, vitamina E, aceites esenciales y una exquisita fragancia.
+              Nuestra mantequilla corporal utiliza ingredientes naturales y nutritivos para proporcionar una hidratación
+              intensa y un cuidado óptimo para tu piel."
+            </blockquote>
+          </div>
+
+          <!-- Modo de Uso Detallado -->
+          <div class="info-panel reveal">
+            <div class="flex items-center gap-3 mb-6">
+              <span class="text-2xl" aria-hidden="true">📋</span>
+              <h3 class="font-serif text-xl font-bold text-[#170A2E]">Instrucciones de Uso</h3>
+            </div>
+
+            <div class="space-y-4">
+              <div class="usage-step">
+                <span class="step-number" aria-hidden="true">1</span>
+                <p class="text-sm text-[#3B176B] leading-relaxed">
+                  <strong class="text-[#170A2E]">Preparación:</strong> Aplica sobre la piel limpia y preferiblemente
+                  seca o ligeramente húmeda tras el baño para sellar la humedad.
+                </p>
+              </div>
+              <div class="usage-step">
+                <span class="step-number" aria-hidden="true">2</span>
+                <p class="text-sm text-[#3B176B] leading-relaxed">
+                  <strong class="text-[#170A2E]">Aplicación en masajes:</strong> Toma una pequeña porción con la yema de
+                  los dedos y distribúyela con movimientos circulares ascendentes.
+                </p>
+              </div>
+              <div class="usage-step">
+                <span class="step-number" aria-hidden="true">3</span>
+                <p class="text-sm text-[#3B176B] leading-relaxed">
+                  <strong class="text-[#170A2E]">Zonas de atención:</strong> Presta especial dedicación en áreas
+                  propensas a resequedad como codos, rodillas, talones y escote.
+                </p>
+              </div>
+              <div class="usage-step">
+                <span class="step-number" aria-hidden="true">4</span>
+                <p class="text-sm text-[#3B176B] leading-relaxed">
+                  <strong class="text-[#170A2E]">Frecuencia:</strong> Utilízala a diario, por la mañana y por la noche,
+                  para mantener una piel radiante y permanentemente protegida.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ingredientes Estrella -->
+          <div class="reveal">
+            <h3 class="font-serif text-xl font-bold text-[#170A2E] mb-4 flex items-center gap-2">
+              <span aria-hidden="true">🌱</span> Ingredientes Activos Destacados
+            </h3>
+            <div class="flex flex-wrap gap-2.5">
+              <span class="ingredient-chip">🍫 Manteca de Cacao Pura</span>
+              <span class="ingredient-chip">🥜 Manteca de Karité</span>
+              <span class="ingredient-chip">💊 Vitamina E Antioxidante</span>
+              <span class="ingredient-chip">🌸 Aceites Esenciales</span>
+              <span class="ingredient-chip">🌿 Extracto Natural de Vainilla</span>
+              <span class="ingredient-chip">💧 Glicerina Vegetal</span>
+              <span class="ingredient-chip">✨ Emolientes Nutritivos</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Columna Derecha: Sellos + Gráfica de Instrucciones (5 cols) -->
+        <div class="lg:col-span-5 space-y-6">
+
+          <!-- Gráfica Oficial de Instrucciones / Packaging -->
+          <div class="reveal rounded-2xl overflow-hidden shadow-lg border border-[#C9A24A]/20">
+            <img src="assets/images/instruccionesuso.jpg" alt="Etiqueta e Instrucciones de Uso oficiales de BS IND CARE"
+              class="w-full h-auto object-cover" width="500" height="350" loading="lazy" />
+          </div>
+
+          <!-- Sellos Oficiales de Calidad y Certificación -->
+          <div class="info-panel reveal">
+            <h3 class="font-serif text-lg font-bold text-[#170A2E] mb-5 text-center">
+              Sellos de Compromiso & Seguridad
+            </h3>
+            <div class="grid grid-cols-4 gap-3">
+              <div class="seal-badge" role="img" aria-label="Cruelty Free — Sin pruebas en animales">
+                <div class="seal-icon">🐰</div>
+                <span class="seal-text">Cruelty Free</span>
+              </div>
+              <div class="seal-badge" role="img" aria-label="Paraben Free — Libre de parabenos">
+                <div class="seal-icon">🚫</div>
+                <span class="seal-text">Paraben Free</span>
+              </div>
+              <div class="seal-badge" role="img" aria-label="Envase Reciclable">
+                <div class="seal-icon">♻️</div>
+                <span class="seal-text">Reciclable</span>
+              </div>
+              <div class="seal-badge" role="img" aria-label="Hecho en Colombia">
+                <div class="seal-icon">🇨🇴</div>
+                <span class="seal-text">Colombia</span>
+              </div>
+            </div>
+
+            <!-- Resumen de Envase y Medidas Maestras -->
+            <div class="mt-6 bg-white p-4 rounded-xl border border-purple-pale/80 space-y-2">
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-gray-500 uppercase font-semibold">Producto Principal:</span>
+                <span class="font-bold text-[#3B176B]">Mantequilla Corporal (175 ml)</span>
+              </div>
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-gray-500 uppercase font-semibold">Etiqueta Tapa Maestra:</span>
+                <span class="font-bold text-[#C9A24A]">8 cm Diámetro Circular</span>
+              </div>
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-gray-500 uppercase font-semibold">Etiqueta Envase:</span>
+                <span class="font-bold text-[#C9A24A]">27 cm × 3 cm</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       6. SECCIÓN DE PORTAFOLIO & COLECCIÓN
+       ════════════════════════════════════════════════════════════ -->
+  <section id="portfolio" class="py-20 px-4 md:px-8 bg-[#F8F3EA] border-t border-b border-[#C9A24A]/20"
+    aria-labelledby="portfolio-title">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14 reveal">
+        <p class="section-label mb-3">Línea de Productos</p>
+        <h2 id="portfolio-title" class="section-title mb-4">Presentaciones & Colección de Aromas</h2>
+        <div class="section-divider mx-auto mb-4"></div>
+        <p class="text-[#3B176B] text-sm max-w-2xl mx-auto">
+          Descubre las opciones de la línea BS IND CARE®, desde el formato individual hasta kits exclusivos de regalo,
+          parte de nuestro portafolio maestro de 35 aromas.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Card 1: Mantequilla 175 ml -->
+        <div
+          class="bg-white rounded-2xl p-6 shadow-md border border-[#C9A24A]/20 flex flex-col justify-between reveal reveal-delay-1 hover:shadow-xl transition-all duration-300">
+          <div>
+            <div class="h-48 rounded-xl overflow-hidden mb-5 bg-[#FAF7F2]">
+              <img src="assets/images/product2.jpg" alt="Mantequilla Corporal BS IND CARE 175 ml"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </div>
+            <span
+              class="text-[0.65rem] font-bold uppercase tracking-wider text-[#C9A24A] bg-[#FDF9EE] px-3 py-1 rounded-full">Producto
+              Principal</span>
+            <h3 class="font-serif text-xl font-bold text-[#170A2E] mt-2 mb-2">Mantequilla Corporal</h3>
+            <p class="text-xs text-gray-600 leading-relaxed mb-4">
+              Presentación individual de 175 ml (5.91 fl. oz.). Máxima concentración de mantecas naturales para uso
+              diario.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+            <span class="font-serif font-bold text-lg text-[#3B176B]">175 ml</span>
+            <a href="https://wa.me/573165305071?text=Hola!%20Deseo%20comprar%20la%20Mantequilla%20Corporal%20de%20175ml"
+              target="_blank" rel="noopener noreferrer"
+              class="text-xs font-bold text-[#C9A24A] hover:text-[#3B176B] flex items-center gap-1">
+              Pedir ✦
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Splash Corporal 120 ml -->
+        <div
+          class="bg-white rounded-2xl p-6 shadow-md border border-[#C9A24A]/20 flex flex-col justify-between reveal reveal-delay-2 hover:shadow-xl transition-all duration-300">
+          <div>
+            <div class="h-48 rounded-xl overflow-hidden mb-5 bg-[#FAF7F2]">
+              <img src="assets/images/product3.jpg" alt="Splash Corporal Complementario BS IND CARE 120 ml"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </div>
+            <span
+              class="text-[0.65rem] font-bold uppercase tracking-wider text-[#3B176B] bg-[#DCCEF0]/40 px-3 py-1 rounded-full">Complementario</span>
+            <h3 class="font-serif text-xl font-bold text-[#170A2E] mt-2 mb-2">Splash Corporal</h3>
+            <p class="text-xs text-gray-600 leading-relaxed mb-4">
+              Presentación de 120 ml. Bruma ligera refrescante con alta fijación para complementar tu ritual aromático
+              durante el día.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+            <span class="font-serif font-bold text-lg text-[#3B176B]">120 ml</span>
+            <a href="https://wa.me/573165305071?text=Hola!%20Deseo%20información%20sobre%20el%20Splash%20Corporal%20de%20120ml"
+              target="_blank" rel="noopener noreferrer"
+              class="text-xs font-bold text-[#C9A24A] hover:text-[#3B176B] flex items-center gap-1">
+              Pedir ✦
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Kit Premium de Regalo -->
+        <div
+          class="bg-gradient-to-br from-[#170A2E] to-[#3B176B] text-white rounded-2xl p-6 shadow-xl border border-[#C9A24A] flex flex-col justify-between reveal reveal-delay-3 hover:shadow-2xl transition-all duration-300">
+          <div>
+            <div class="h-48 rounded-xl overflow-hidden mb-5 bg-black/20">
+              <img src="assets/images/lifestyle.jpg" alt="Kit Premium de Regalo BS IND CARE"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </div>
+            <span
+              class="text-[0.65rem] font-bold uppercase tracking-wider text-gold-rich bg-white/10 px-3 py-1 rounded-full border border-gold-main/40">Presentación
+              Especial</span>
+            <h3 class="font-serif text-xl font-bold text-white mt-2 mb-2">Kit Premium Dúo</h3>
+            <p class="text-xs text-white/75 leading-relaxed mb-4">
+              Mantequilla 175 ml + Splash 120 ml en elegante presentación de regalo o autorregalo de lujo.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <span class="font-serif font-bold text-lg text-gold-light">175 ml + 120 ml</span>
+            <a href="https://wa.me/573165305071?text=Hola!%20Quiero%20ordenar%20el%20Kit%20Premium%20Dúo%20de%20BS%20IND%20CARE"
+              target="_blank" rel="noopener noreferrer"
+              class="text-xs font-bold text-gold-rich hover:text-white flex items-center gap-1">
+              Pedir Kit ✦
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       7. SECCIÓN DE GALERÍA DE PRODUCTOS (CARRUSEL INTERACTIVO)
+       ════════════════════════════════════════════════════════════ -->
+  <section id="gallery" class="py-20 md:py-28 px-4 md:px-8 text-white" aria-labelledby="gallery-title">
+    <div class="max-w-5xl mx-auto">
+
+      <!-- Encabezado de Galería -->
+      <div class="text-center mb-12 reveal">
+        <p class="section-label text-gold-light mb-3">Galería Fotográfica</p>
+        <h2 id="gallery-title" class="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
+          BS IND CARE® en Todo su Esplendor
+        </h2>
+        <div class="section-divider mx-auto mb-4"></div>
+        <p class="text-white/70 text-sm max-w-lg mx-auto">
+          Explora la elegancia, acabados dorados y detalles de nuestro packaging y textura sensorial.
+        </p>
+      </div>
+
+      <!-- Carousel Interactivo TypeScript -->
+      <div class="reveal" role="region" aria-label="Galería de productos — usar flechas o deslizar">
+
+        <div class="carousel-container" id="carouselWrapper">
+          <!-- Botón Anterior -->
+          <button class="carousel-btn prev" id="carouselPrev" aria-label="Imagen anterior">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <!-- Track con slides -->
+          <div class="carousel-track" id="carouselTrack" role="list" aria-live="polite" aria-atomic="true">
+
+            <!-- Slide 1: Textura batida -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/product1.jpg"
+                alt="Mantequilla Corporal BS IND CARE textura cremosa aroma vainilla" width="800" height="480" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Textura Batida Ultrasuave</h3>
+                <p class="text-white/70 text-sm">Fórmula enriquecida que se funde en la piel al instante</p>
+              </div>
+            </div>
+
+            <!-- Slide 2: Packaging en Mármol -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/product2.jpg" alt="Packaging elegante BS IND CARE frasco cerrado con tapa dorada"
+                width="800" height="480" loading="lazy" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Elegancia & Sofisticación</h3>
+                <p class="text-white/70 text-sm">Tapa dorada grabada de 8 cm con el sello BS IND CARE®</p>
+              </div>
+            </div>
+
+            <!-- Slide 3: Detalle de Marca y Línea -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/product4.jpg" alt="Detalle del envase y etiqueta BS IND CARE" width="800"
+                height="480" loading="lazy" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Acabados de Lujo Accesible</h3>
+                <p class="text-white/70 text-sm">Etiqueta de 27 × 3 cm con detalles dorados y púrpura de alta gama</p>
+              </div>
+            </div>
+
+            <!-- Slide 4: Ritual Lifestyle -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/lifestyle.jpg" alt="Ritual de belleza y autocuidado con BS IND CARE" width="800"
+                height="480" loading="lazy" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Tu Ritual de Autocuidado</h3>
+                <p class="text-white/70 text-sm">Convierte tu rutina diaria en un momento de paz y bienestar</p>
+              </div>
+            </div>
+
+            <!-- Slide 5: Ingredientes Naturales -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/ingredients.jpg"
+                alt="Ingredientes naturales manteca de cacao karite vainilla y vitamina E" width="800" height="480"
+                loading="lazy" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Ingredientes 100% Puros</h3>
+                <p class="text-white/70 text-sm">Cacao, karité, vainilla y aceites esenciales de la más alta pureza</p>
+              </div>
+            </div>
+
+            <!-- Slide 6: Vista de Producto 5 -->
+            <div class="carousel-slide" role="listitem">
+              <img src="assets/images/product5.jpg" alt="Presentación de mantequilla corporal BS IND CARE" width="800"
+                height="480" loading="lazy" />
+              <div class="slide-caption">
+                <h3 class="font-serif text-xl font-bold text-white mb-1">Cuidado Inteligente para tu Piel</h3>
+                <p class="text-white/70 text-sm">Calidad y excelencia respaldada por Bridges Siblings Industries</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Botón Siguiente -->
+          <button class="carousel-btn next" id="carouselNext" aria-label="Imagen siguiente">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Indicadores (Dots) -->
+        <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Indicadores de imagen"></div>
+
+        <p class="text-center text-white/40 text-xs mt-4 lg:hidden" aria-hidden="true">
+          ← Desliza hacia los lados para explorar →
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       8. SECCIÓN DE CONTACTO & COMUNICACIÓN (CON WEB3FORMS)
+       ════════════════════════════════════════════════════════════ -->
+  <section id="contact" class="py-20 md:py-28 px-4 md:px-8" aria-labelledby="contact-title">
+    <div class="max-w-5xl mx-auto">
+
+      <!-- Header -->
+      <div class="text-center mb-14 reveal">
+        <p class="section-label mb-3">Atención & Pedidos</p>
+        <h2 id="contact-title" class="section-title mb-4">Comunícate con Nosotros</h2>
+        <div class="section-divider mx-auto mb-4"></div>
+        <p class="text-[#3B176B] text-sm max-w-md mx-auto">
+          ¿Deseas realizar un pedido, consultar sobre envíos o conocer más sobre nuestra marca? Escríbenos directamente.
+        </p>
+      </div>
+
+      <!-- Tarjeta Principal de Contacto -->
+      <div class="contact-card reveal">
+        <div class="grid md:grid-cols-5">
+
+          <!-- Sidebar Informativo (2 cols) -->
+          <aside class="contact-sidebar md:col-span-2">
+            <div class="flex items-center gap-2 mb-4">
+              <img src="assets/images/logo.jpg" alt="BS IND CARE Logo"
+                class="w-8 h-8 rounded-full border border-gold-main" />
+              <span class="font-serif font-bold text-white text-lg">BS IND CARE®</span>
+            </div>
+
+            <h3 class="font-serif text-2xl font-bold mb-3">Estamos para servirte</h3>
+            <p class="text-white/70 text-xs md:text-sm mb-8 leading-relaxed">
+              Atención personalizada para compras al detal, kits corporativos y distribución nacional.
+            </p>
+
+            <!-- Botones Rápidos Directos -->
+            <div class="space-y-3 mb-8">
+              <a href="https://wa.me/573165305071?text=Hola!%20Me%20interesa%20la%20Mantequilla%20Corporal%20Vainilla%20de%20BS%20IND%20CARE"
+                target="_blank" rel="noopener noreferrer" class="quick-btn quick-btn-whatsapp"
+                aria-label="Contactar por WhatsApp">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                <span>WhatsApp Directo</span>
+              </a>
+
+              <a href="mailto:bsindcare@gmail.com" class="quick-btn quick-btn-email"
+                aria-label="Enviar correo electrónico a BS IND CARE">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>bsindcare@gmail.com</span>
+              </a>
+            </div>
+
+            <!-- Bloque Corporativo Oficial -->
+            <div class="border-t border-white/10 pt-5 text-left">
+              <p class="text-[0.65rem] text-white/50 font-semibold tracking-wider uppercase mb-1">Empresa Matriz</p>
+              <p class="text-xs text-white/90 font-bold">Bridges Siblings Industries S.A.S.</p>
+              <p class="text-xs text-gold-light mt-2 italic">"La excelencia hecha cuidado."</p>
+            </div>
+          </aside>
+
+          <!-- Formulario de Contacto con Web3Forms (3 cols) -->
+          <div class="contact-form-area md:col-span-3">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate
+              aria-label="Formulario de contacto oficial">
+
+              <!-- 
+                ============================================================
+                CONFIGURACIÓN DE WEB3FORMS (GRATUITO):
+                ============================================================
+              -->
+              <input type="hidden" name="access_key" id="web3formsKey" value="c541063b-af74-4f12-910e-65c4624c6c72" />
+              <input type="hidden" name="subject" value="Nuevo Mensaje desde Page BS IND CARE" />
+              <input type="hidden" name="from_name" value="BS IND CARE Web" />
+              <!-- Honeypot anti-spam de Web3Forms -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+
+              <h3 class="font-serif text-2xl font-bold text-[#170A2E] mb-2">Envíanos un Mensaje</h3>
+              <p class="text-xs text-gray-500 mb-6">Te responderemos a la brevedad posible.</p>
+
+              <!-- Campo Nombre -->
+              <div class="form-group">
+                <label for="fieldName" class="form-label">
+                  Nombre Completo <span class="text-red-500" aria-hidden="true">*</span>
+                </label>
+                <input type="text" id="fieldName" name="name" class="form-input" placeholder="Tu nombre y apellido"
+                  autocomplete="name" required aria-required="true" aria-describedby="errorName" />
+                <span id="errorName" class="error-msg" role="alert" aria-live="polite">
+                  <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </div>
+
+              <!-- Campo Email -->
+              <div class="form-group">
+                <label for="fieldEmail" class="form-label">
+                  Correo Electrónico <span class="text-red-500" aria-hidden="true">*</span>
+                </label>
+                <input type="email" id="fieldEmail" name="email" class="form-input" placeholder="tu@correo.com"
+                  autocomplete="email" required aria-required="true" aria-describedby="errorEmail" />
+                <span id="errorEmail" class="error-msg" role="alert" aria-live="polite">
+                  <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </div>
+
+              <!-- Campo Mensaje -->
+              <div class="form-group">
+                <div class="flex justify-between items-center mb-1">
+                  <label for="fieldMessage" class="form-label mb-0">
+                    Mensaje o Consulta <span class="text-red-500" aria-hidden="true">*</span>
+                  </label>
+                  <span id="charCounter" class="text-[0.7rem] text-gray-400 font-medium" aria-live="polite">0/500</span>
+                </div>
+                <textarea id="fieldMessage" name="message" class="form-input resize-none" rows="4" maxlength="500"
+                  placeholder="Escribe tu consulta sobre pedidos, fragancias o envíos..." required aria-required="true"
+                  aria-describedby="errorMessage charCounter"></textarea>
+                <span id="errorMessage" class="error-msg" role="alert" aria-live="polite">
+                  <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </div>
+
+              <!-- Nota de privacidad -->
+              <p class="text-[0.72rem] text-gray-500 mb-5 leading-relaxed">
+                Tus datos están protegidos y solo serán utilizados para responder a tu solicitud.
+              </p>
+
+              <!-- Botón de Envío -->
+              <button type="submit" id="submitBtn" class="form-submit" aria-label="Enviar mensaje de contacto">
+                <span id="btnText">Enviar Mensaje ✦</span>
+                <span id="btnLoader" class="hidden items-center gap-2 justify-center" aria-live="polite">
+                  <svg class="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+                  </svg>
+                  Enviando mensaje...
+                </span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       9. FOOTER (PIE DE PÁGINA)
+       ════════════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 py-14 md:py-16">
+
+      <div class="grid md:grid-cols-3 gap-10 md:gap-8">
+
+        <!-- Columna 1: Marca Oficial y Redes Sociales (Sin Modificar) -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/images/logo.jpg" alt="BS IND CARE Logo"
+              class="w-10 h-10 rounded-full border border-gold-main" />
+            <div class="leading-none">
+              <span class="block text-xl font-bold tracking-widest text-white font-serif">BS IND CARE<sup
+                  class="text-xs text-gold-rich font-sans">®</sup></span>
+              <span class="block text-[0.55rem] tracking-[0.25em] text-gold-light opacity-80 uppercase mt-0.5">La
+                Excelencia Hecha Cuidado</span>
+            </div>
+          </div>
+          <p class="text-white/60 text-xs md:text-sm leading-relaxed mb-6 max-w-xs">
+            Mantequilla Corporal Aroma Vainilla (175 ml). Cuidado corporal premium, hidratación 24h y fórmula natural de
+            alta cosmética.
+          </p>
+
+          <!-- Redes Sociales Oficiales (@bsindcare)-->
+          <div class="flex gap-3" role="list" aria-label="Redes sociales oficiales">
+            <a href="https://www.instagram.com/bsindcare" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="Instagram @bsindcare" role="listitem">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/brisindsas" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="Facebook @bsindcare" role="listitem">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@bsindcare" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="TikTok @bsindcare" role="listitem">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna 2: Navegación Rápida -->
+        <div>
+          <h3 class="text-white font-semibold text-xs tracking-widest uppercase mb-5">Navegación</h3>
+          <ul class="space-y-2.5" role="list">
+            <li><a href="#hero" class="footer-link">Inicio</a></li>
+            <li><a href="#benefits" class="footer-link">Beneficios Clave</a></li>
+            <li><a href="#video-experience" class="footer-link">Experiencia Sensorial</a></li>
+            <li><a href="#product-info" class="footer-link">Ingredientes & Modo de Uso</a></li>
+            <li><a href="#portfolio" class="footer-link">Colección de Productos</a></li>
+            <li><a href="#gallery" class="footer-link">Galería Interactiva</a></li>
+            <li><a href="#contact" class="footer-link">Contacto & Pedidos</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Información Corporativa & Legal Oficial -->
+        <div>
+          <h3 class="text-white font-semibold text-xs tracking-widest uppercase mb-5">Identidad Corporativa</h3>
+          <div class="bg-white/5 rounded-2xl p-5 border border-white/10 space-y-2 text-left">
+            <p class="text-[0.65rem] text-gold-light uppercase font-bold tracking-wider">Titular de Marca</p>
+            <p class="text-sm text-white font-bold">Bridges Siblings Industries S.A.S.</p>
+            <p class="text-xs text-white/60">Industria Cosmética & Cuidado Personal</p>
+            <div class="pt-2 border-t border-white/10">
+              <p class="text-[0.7rem] text-white/50">Colombia ✦ Distribución Internacional</p>
+              <p class="text-[0.7rem] text-gold-rich font-medium mt-1">"La excelencia hecha cuidado"</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Barra Inferior de Copyright -->
+      <hr class="footer-divider" />
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-3 text-center">
+        <p class="text-white/40 text-xs">
+          &copy; 2026 <strong class="text-white/70">BRTZ DESIGNS®</strong> — Todos los derechos reservados.
+        </p>
+        <p class="text-white/30 text-xs flex items-center gap-1.5">
+          <span class="text-gold-rich" aria-hidden="true">✦</span>
+          Hecho con excelencia en Colombia
+          <span class="text-gold-rich" aria-hidden="true">✦</span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════════════════════════
+       10. TOAST NOTIFICATION
+       ════════════════════════════════════════════════════════════ -->
+  <div id="toast" role="status" aria-live="polite" aria-atomic="true">
+    <span id="toastIcon" class="text-2xl" aria-hidden="true">✅</span>
+    <div>
+      <p id="toastTitle" class="font-bold text-[#170A2E] text-sm">¡Mensaje Enviado!</p>
+      <p id="toastMsg" class="text-[#3B176B] text-xs mt-0.5">Te contactaremos lo más pronto posible.</p>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/573165305071?text=Hola!%20Me%20interesa%20la%20Mantequilla%20Corporal%20Vainilla%20de%20BS%20IND%20CARE"
+    target="_blank" rel="noopener noreferrer"
+    class="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-gradient-to-r from-[#DFB75A] to-[#C9A24A] hover:from-[#E8CA7A] hover:to-[#DFB75A] text-[#170A2E] font-bold text-xs tracking-wider uppercase px-4 py-3 rounded-full shadow-2xl hover:shadow-[0_10px_30px_rgba(201,162,74,0.5)] hover:-translate-y-1 transition-all duration-300 border border-white/30"
+    aria-label="Comprar por WhatsApp">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+    <span>Comprar en WhatsApp</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="main.js" defer></script>
+</body>
+
+</html>

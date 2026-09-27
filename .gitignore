@@ -1,0 +1,52 @@
+# Sistema Operativo y Basura Local
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos Temporales de Office / Documentos
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Configuración de Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.gemini/
+
+# Seguridad y Variables de Entorno (Credenciales y Claves)
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+*.pfx
+secrets/
+credentials.json
+*token*
+*password*
+
+# Logs y Caché
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+tmp/
+temp/
+
+# Dependencias (si se agregan en el futuro)
+node_modules/
+dist/
+build/
