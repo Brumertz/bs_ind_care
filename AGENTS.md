@@ -41,5 +41,5 @@ There is no lint/typecheck/build. `node test.js` is the verification step after 
 
 ## Conventions
 
-- Site copy, comments, and UI strings are in **Spanish**; keep new content consistent.
+- Site copy and UI strings are in **Spanish** (client-facing); **code comments, docs, and the test report are in English** — write new ones accordingly.
 - Keep `index.html`'s existing section-comment structure (`═` banner comments numbered 1–10) and semantic HTML/ARIA attributes when adding content.

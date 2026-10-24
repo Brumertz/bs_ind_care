@@ -1,33 +1,33 @@
-# 📋 Informe Técnico de Pruebas y Verificación de Calidad — BS IND CARE®
+# 📋 Testing & Quality Verification Technical Report — BS IND CARE®
 
-**Proyecto:** Landing Page Oficial BS IND CARE® — Mantequilla Corporal Aroma Vainilla  
-**Empresa:** Bridges Siblings Industries S.A.S.  
-**Fecha de Ejecución:** 29 de septiembre de 2026  
-**Resultado Global:** **APROBADO (100% de éxito)**  
-**Script Ejecutable:** [`test.js`](file:///e:/WebDesign/bs_ind_care/test.js)  
-**Total de Pruebas:** 78 ejecutadas / 78 superadas / 0 fallidas  
+**Project:** Official BS IND CARE® Landing Page — Vanilla Scent Body Butter  
+**Company:** Bridges Siblings Industries S.A.S.  
+**Execution Date:** September 29, 2026  
+**Global Result:** **APPROVED (100% success)**  
+**Executable Script:** [`test.js`](file:///e:/WebDesign/bs_ind_care/test.js)  
+**Total Tests:** 78 executed / 78 passed / 0 failed  
 
 ---
 
-## 📊 1. Resumen Ejecutivo de Métricas
+## 📊 1. Executive Metrics Summary
 
-| Módulo Evaluado | Total Pruebas | Aprobadas | Fallidas | Estado |
+| Module Evaluated | Total Tests | Passed | Failed | Status |
 | :--- | :---: | :---: | :---: | :---: |
-| **1. Arquitectura y Archivos Esenciales** | 3 | 3 | 0 | ✅ APROBADO |
-| **2. Sincronización DOM & Selectores JavaScript** | 26 | 26 | 0 | ✅ APROBADO |
-| **3. Integridad de Recursos Multimedia** | 10 | 10 | 0 | ✅ APROBADO |
-| **4. Lógica de Validación de Formulario (Edge Cases)** | 10 | 10 | 0 | ✅ APROBADO |
-| **5. Lógica del Carrusel & Swipe Táctil** | 4 | 4 | 0 | ✅ APROBADO |
-| **6. Enlaces Oficiales de Conversión (WhatsApp)** | 8 | 8 | 0 | ✅ APROBADO |
-| **7. Identidad Visual & Consistencia de Tokens** | 10 | 10 | 0 | ✅ APROBADO |
-| **8. SEO, Accesibilidad (WCAG) y Rendimiento LCP** | 7 | 7 | 0 | ✅ APROBADO |
-| **TOTAL GENERAL** | **78** | **78** | **0** | **100% ÉXITO** |
+| **1. Architecture & Essential Files** | 3 | 3 | 0 | ✅ APPROVED |
+| **2. DOM & JavaScript Selector Sync** | 26 | 26 | 0 | ✅ APPROVED |
+| **3. Multimedia Asset Integrity** | 10 | 10 | 0 | ✅ APPROVED |
+| **4. Form Validation Logic (Edge Cases)** | 10 | 10 | 0 | ✅ APPROVED |
+| **5. Carousel Logic & Touch Swipe** | 4 | 4 | 0 | ✅ APPROVED |
+| **6. Official Conversion Links (WhatsApp)** | 8 | 8 | 0 | ✅ APPROVED |
+| **7. Visual Identity & Token Consistency** | 10 | 10 | 0 | ✅ APPROVED |
+| **8. SEO, Accessibility (WCAG) & LCP Performance** | 7 | 7 | 0 | ✅ APPROVED |
+| **GRAND TOTAL** | **78** | **78** | **0** | **100% SUCCESS** |
 
 ---
 
-## ⚙️ 2. Cómo Ejecutar las Pruebas
+## ⚙️ 2. How to Run the Tests
 
-La suite está construida en JavaScript nativo sobre Node.js, sin dependencias externas (`node_modules`) ni configuraciones adicionales.
+The suite is built in native JavaScript on Node.js, with no external dependencies (`node_modules`) or additional configuration.
 
 ```bash
 node test.js
@@ -35,79 +35,79 @@ node test.js
 
 ---
 
-## 🔍 3. Desglose Detallado por Módulos de Prueba
+## 🔍 3. Detailed Breakdown by Test Module
 
-### Módulo 1: Arquitectura y Archivos Esenciales (3/3)
-* ✅ `index.html`: Presente en la raíz del proyecto, estructura semántica completa (~63 KB, >1000 líneas).
-* ✅ `styles.css`: Presente, contiene variables `:root`, animaciones de scroll y componentes (~26 KB).
-* ✅ `main.js`: Presente, sintaxis ES6+ modular, listener `DOMContentLoaded` configurado (~15 KB).
+### Module 1: Architecture & Essential Files (3/3)
+* ✅ `index.html`: Present at the project root, complete semantic structure (~63 KB, >1000 lines).
+* ✅ `styles.css`: Present, contains `:root` variables, scroll animations and components (~26 KB).
+* ✅ `main.js`: Present, modular ES6+ syntax, `DOMContentLoaded` listener configured (~15 KB).
 
-### Módulo 2: Sincronización DOM & Selectores JavaScript (26/26)
-Se auditó la correspondencia exacta entre los selectores requeridos por [`main.js`](file:///e:/WebDesign/bs_ind_care/main.js) y las etiquetas en [`index.html`](file:///e:/WebDesign/bs_ind_care/index.html):
-* ✅ **Componentes de Navegación:** `#navbar`, `#hamburger`, `#mobile-menu` presentes.
-* ✅ **Componentes del Carrusel:** `#carouselTrack`, `#carouselDots`, `#carouselPrev`, `#carouselNext` presentes.
-* ✅ **Componentes del Formulario:** `#contactForm`, `#fieldName`, `#fieldEmail`, `#fieldMessage`, `#web3formsKey`, `#charCounter`, `#submitBtn`, `#btnText`, `#btnLoader` presentes.
-* ✅ **Elementos de Notificación de Errores:** `#errorName`, `#errorEmail`, `#errorMessage` presentes.
-* ✅ **Componente Toast:** `#toast`, `#toastTitle`, `#toastMsg`, `#toastIcon` presentes.
-* ✅ **Clases dinámicas:** `.carousel-slide`, `.mobile-nav-link`, `.reveal` presentes en todos los elementos correspondientes.
+### Module 2: DOM & JavaScript Selector Sync (26/26)
+The exact correspondence between the selectors required by [`main.js`](file:///e:/WebDesign/bs_ind_care/main.js) and the tags in [`index.html`](file:///e:/WebDesign/bs_ind_care/index.html) was audited:
+* ✅ **Navigation Components:** `#navbar`, `#hamburger`, `#mobile-menu` present.
+* ✅ **Carousel Components:** `#carouselTrack`, `#carouselDots`, `#carouselPrev`, `#carouselNext` present.
+* ✅ **Form Components:** `#contactForm`, `#fieldName`, `#fieldEmail`, `#fieldMessage`, `#web3formsKey`, `#charCounter`, `#submitBtn`, `#btnText`, `#btnLoader` present.
+* ✅ **Error Notification Elements:** `#errorName`, `#errorEmail`, `#errorMessage` present.
+* ✅ **Toast Component:** `#toast`, `#toastTitle`, `#toastMsg`, `#toastIcon` present.
+* ✅ **Dynamic Classes:** `.carousel-slide`, `.mobile-nav-link`, `.reveal` present on all corresponding elements.
 
-### Módulo 3: Integridad de Recursos Multimedia (10/10)
-Se comprobó la existencia física en disco y validez de peso de todos los recursos multimedia referenciados:
-* ✅ `assets/images/logo.jpg` (61.8 KB - Logotipo corporativo)
-* ✅ `assets/images/product1.jpg` (620.8 KB - Imagen principal Hero / LCP Preload)
-* ✅ `assets/images/product2.jpg` (667.4 KB - Slide carrusel)
-* ✅ `assets/images/product3.jpg` (383.4 KB - Slide carrusel)
-* ✅ `assets/images/product4.jpg` (245.7 KB - Slide carrusel)
-* ✅ `assets/images/product5.jpg` (216.0 KB - Slide carrusel)
-* ✅ `assets/images/ingredients.jpg` (820.3 KB - Activos naturales)
-* ✅ `assets/images/lifestyle.jpg` (705.0 KB - Ritual spa)
-* ✅ `assets/images/instruccionesuso.jpg` (147.8 KB - Infografía de aplicación)
-* ✅ `assets/images/productvideo1.mp4` (1448.8 KB - Video comercial de producto)
+### Module 3: Multimedia Asset Integrity (10/10)
+Physical on-disk existence and valid file weight were verified for every referenced multimedia resource:
+* ✅ `assets/images/logo.jpg` (61.8 KB - Corporate logo)
+* ✅ `assets/images/product1.jpg` (620.8 KB - Main Hero image / LCP Preload)
+* ✅ `assets/images/product2.jpg` (667.4 KB - Carousel slide)
+* ✅ `assets/images/product3.jpg` (383.4 KB - Carousel slide)
+* ✅ `assets/images/product4.jpg` (245.7 KB - Carousel slide)
+* ✅ `assets/images/product5.jpg` (216.0 KB - Carousel slide)
+* ✅ `assets/images/ingredients.jpg` (820.3 KB - Natural assets)
+* ✅ `assets/images/lifestyle.jpg` (705.0 KB - Spa ritual)
+* ✅ `assets/images/instruccionesuso.jpg` (147.8 KB - Application infographic)
+* ✅ `assets/images/productvideo1.mp4` (1448.8 KB - Product commercial video)
 
-### Módulo 4: Lógica de Validación del Formulario de Contacto (10/10)
-Se ejecutaron simulaciones de casos límite (*edge cases*) sobre la lógica de validación de [`main.js`](file:///e:/WebDesign/bs_ind_care/main.js):
-* ✅ Rechazo de campo Nombre vacío o con espacios en blanco (`"El nombre es obligatorio."`).
-* ✅ Rechazo de campo Nombre con longitud menor a 2 caracteres (`"Ingresa al menos 2 caracteres."`).
-* ✅ Aceptación de nombres válidos (ej. `"Ana"`, `"Carlos Rodríguez"`).
-* ✅ Rechazo de campo Email vacío (`"El correo electrónico es obligatorio."`).
-* ✅ Rechazo de formatos de correo no conformes a la expresión regular RFC (ej. `"usuario"`, `"usuario@"`, `"usuario@dominio"`).
-* ✅ Aceptación de emails válidos (ej. `"contacto@bsindcare.com"`, `"cliente.vip@gmail.com"`).
-* ✅ Rechazo de mensaje vacío o con menos de 10 caracteres (`"Por favor escribe al menos 10 caracteres."`).
-* ✅ Aceptación de mensajes con 10 o más caracteres.
-* ✅ Presencia del campo oculto Honeypot (`name="botcheck"`) para mitigación de bots y spam.
-* ✅ Integración activa de clave de acceso Web3Forms (`c541063b-af74...`).
+### Module 4: Contact Form Validation Logic (10/10)
+Edge-case simulations were executed against the validation logic of [`main.js`](file:///e:/WebDesign/bs_ind_care/main.js):
+* ✅ Rejection of an empty or whitespace-only Name field (`"El nombre es obligatorio."`).
+* ✅ Rejection of a Name field shorter than 2 characters (`"Ingresa al menos 2 caracteres."`).
+* ✅ Acceptance of valid names (e.g. `"Ana"`, `"Carlos Rodríguez"`).
+* ✅ Rejection of an empty Email field (`"El correo electrónico es obligatorio."`).
+* ✅ Rejection of email formats that fail the RFC regular expression (e.g. `"usuario"`, `"usuario@"`, `"usuario@dominio"`).
+* ✅ Acceptance of valid emails (e.g. `"contacto@bsindcare.com"`, `"cliente.vip@gmail.com"`).
+* ✅ Rejection of an empty message or one shorter than 10 characters (`"Por favor escribe al menos 10 caracteres."`).
+* ✅ Acceptance of messages with 10 or more characters.
+* ✅ Presence of the hidden Honeypot field (`name="botcheck"`) for bot and spam mitigation.
+* ✅ Active Web3Forms access key integration (`c541063b-af74...`).
 
-### Módulo 5: Lógica del Carrusel & Swipe Táctil (4/4)
-* ✅ Cantidad de diapositivas activas: 4 slides identificados con clase `.carousel-slide`.
-* ✅ Navegación circular hacia adelante: cálculo `(index + total) % total` rota del último al primero sin desbordamiento.
-* ✅ Navegación circular hacia atrás: retrocede al último slide desde el índice inicial.
-* ✅ Umbral de gesto táctil: detección de swipe calibrada a `|diff| > 40px` evitando disparos accidentales en scroll vertical.
+### Module 5: Carousel Logic & Touch Swipe (4/4)
+* ✅ Active slide count: 4 slides identified with the `.carousel-slide` class.
+* ✅ Circular forward navigation: the `(index + total) % total` calculation rotates from last to first without overflow.
+* ✅ Circular backward navigation: returns to the last slide from the initial index.
+* ✅ Touch gesture threshold: swipe detection calibrated to `|diff| > 40px`, avoiding accidental triggers during vertical scrolling.
 
-### Módulo 6: Enlaces Oficiales de Conversión (WhatsApp) (8/8)
-Verificación de todos los botones y enlaces de compra en el Hero, Catálogo de Productos y Botón Flotante:
-* ✅ 8 enlaces a `https://wa.me/` detectados en el documento.
-* ✅ El **100%** de los enlaces dirigen exclusivamente a la línea oficial unificada: `+57 316 530 5071`.
-* ✅ No existen números de muestra ni *placeholders* remanentes.
+### Module 6: Official Conversion Links (WhatsApp) (8/8)
+Verification of every purchase button and link in the Hero, Product Catalog and Floating Button:
+* ✅ 8 links to `https://wa.me/` detected in the document.
+* ✅ **100%** of links point exclusively to the official unified line: `+57 316 530 5071`.
+* ✅ No sample numbers or leftover *placeholders* remain.
 
-### Módulo 7: Identidad Visual & Consistencia de Tokens (10/10)
-Validación cruzada entre `tailwind.config` en [`index.html`](file:///e:/WebDesign/bs_ind_care/index.html) y las variables CSS en [`styles.css`](file:///e:/WebDesign/bs_ind_care/styles.css):
-* ✅ Púrpura BS (`#3B176B`): idéntico en `--purple-bs` y `colors.purple.bs`.
-* ✅ Púrpura Profundo (`#170A2E`): idéntico en `--purple-deep` y `colors.purple.deep`.
-* ✅ Dorado Premium (`#C9A24A`): idéntico en `--gold-main` y `colors.gold.main`.
-* ✅ Dorado Rico (`#DFB75A`): idéntico en `--gold-rich` y `colors.gold.rich`.
-* ✅ Marfil Oficial (`#F8F3EA`): idéntico en `--purple-bg` / `--cream-white` y `colors.purple.bg`.
+### Module 7: Visual Identity & Token Consistency (10/10)
+Cross-validation between the `tailwind.config` in [`index.html`](file:///e:/WebDesign/bs_ind_care/index.html) and the CSS variables in [`styles.css`](file:///e:/WebDesign/bs_ind_care/styles.css):
+* ✅ BS Purple (`#3B176B`): identical in `--purple-bs` and `colors.purple.bs`.
+* ✅ Deep Purple (`#170A2E`): identical in `--purple-deep` and `colors.purple.deep`.
+* ✅ Premium Gold (`#C9A24A`): identical in `--gold-main` and `colors.gold.main`.
+* ✅ Rich Gold (`#DFB75A`): identical in `--gold-rich` and `colors.gold.rich`.
+* ✅ Official Ivory (`#F8F3EA`): identical in `--purple-bg` / `--cream-white` and `colors.purple.bg`.
 
-### Módulo 8: SEO, Accesibilidad (WCAG) y Rendimiento (7/7)
-* ✅ Atributo de idioma `lang="es"` definido en la raíz `<html>`.
-* ✅ Título descriptivo: `"BS IND CARE® — Mantequilla Corporal Aroma Vainilla | La Excelencia Hecha Cuidado"` (81 caracteres, optimizado).
-* ✅ Meta description rica en palabras clave cosméticas e ingredientes (166 caracteres).
-* ✅ Etiquetas de Open Graph: `og:title`, `og:description`, `og:image` (`assets/images/product1.jpg`), `og:type` configurados.
-* ✅ Jerarquía de encabezados: exactamente un solo `<h1>` en el banner principal.
-* ✅ Rendimiento LCP: etiqueta `<link rel="preload" as="image" fetchpriority="high">` en la imagen crítica `product1.jpg`.
-* ✅ Accesibilidad ARIA: roles semánticos (`navigation`, `list`), atributos `aria-label`, `aria-expanded` y alertas `aria-live`.
+### Module 8: SEO, Accessibility (WCAG) & Performance (7/7)
+* ✅ Language attribute `lang="es"` defined on the `<html>` root.
+* ✅ Descriptive title: `"BS IND CARE® — Mantequilla Corporal Aroma Vainilla"` (50 characters, within the 10–70 SEO range).
+* ✅ Meta description rich in cosmetic and ingredient keywords (148 characters, within the 50–160 SEO range).
+* ✅ Open Graph tags: `og:title`, `og:description`, `og:image` (`assets/images/product1.jpg`), `og:type` configured.
+* ✅ Heading hierarchy: exactly one `<h1>` in the main banner.
+* ✅ LCP performance: `<link rel="preload" as="image" fetchpriority="high">` tag on the critical `product1.jpg` image.
+* ✅ ARIA accessibility: semantic roles (`navigation`, `list`), `aria-label` and `aria-expanded` attributes, and `aria-live` alerts.
 
 ---
 
-## 🏁 4. Dictamen Final
+## 🏁 4. Final Verdict
 
-> La landing page **BS IND CARE®** ha superado el **100% de las pruebas automatizadas (78/78)**, garantizando la total integridad de su código, rendimiento, accesibilidad y fidelidad a la identidad de marca de Bridges Siblings Industries S.A.S.
+> The **BS IND CARE®** landing page has passed **100% of the automated tests (78/78)**, guaranteeing the full integrity of its code, performance, accessibility and fidelity to the Bridges Siblings Industries S.A.S. brand identity.
