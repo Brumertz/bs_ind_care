@@ -1,5 +1,7 @@
 # BS IND CARE® — Sitio Web Oficial & Landing Page
 
+[![CI](https://github.com/Brumertz/bs_ind_care/actions/workflows/ci.yml/badge.svg)](https://github.com/Brumertz/bs_ind_care/actions/workflows/ci.yml)
+
 > **"La Excelencia Hecha Cuidado"**  
 > Sitio web oficial y landing page de conversión para la **Mantequilla Corporal Aroma Vainilla (175 ml / 5.91 fl. oz.)**, desarrollada por **Bridges Siblings Industries S.A.S.**
 
